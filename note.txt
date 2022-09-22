@@ -1,0 +1,14 @@
+1. Understand The Problem
+Steps:
+
+2. Explore Concrete Examples:
+User Stories or Unit Tests
+Steps:
+a. Start with simples examples
+b. Progress to more complex examples
+c. Explore examples with invalid/empty inputs
+
+3. Break It Down:
+Explicitly write down the steps you need to take
+
+4. Solve Or Simplify

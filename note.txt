@@ -11,4 +11,18 @@ c. Explore examples with invalid/empty inputs
 3. Break It Down:
 Explicitly write down the steps you need to take
 
-4. Solve Or Simplify
+4. Solve Or Simplify:
+Sole the problem, if you cant solve a simpler portion/form of the problem
+Steps:
+a. Find the core difficulty in whjat you are trying to down
+b. Temporarily ignore that dificulty
+c. Write a simplified solution
+d. Then incoperate that difficulty back in
+
+5. Look Bacjk and Refactor
+* Can you check the result
+* Can you derive the result differently
+* Can you understand it at a glance
+* Can you use the result or method for some otjhjer solution?
+* Can you think of other wajys to Refactor
+* How have other people solved this problem

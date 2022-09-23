@@ -18,9 +18,26 @@ BREAK IT DOWN
 // Interviewer say on count alphanumerics
 function charCount(str = "") {
   // Make object to return at end
+  let obj = {};
+  // If str is not a str just return empty obj
+  if (typeof(str) !== "string") return obj
   // Iterate over @str for each character
-    // If char is alphanumberic and is  and is key in object, add one to count
-    // If char is alphanumeric and not in object ass it and set value to 1
-    // If char is something else, do nothing
+  for (let char of str) {
+    
+    if (/[\w]/.test(char)) {
+        // If char is alphanumberic and is  and is key in object, add one to count 
+        if (obj[char.toLowerCase()]) {
+            obj[char.toLowerCase()] += 1;
+        } else {
+            // If char is alphanumeric and not in object ass it and set value to 1
+            obj[char.toLowerCase()] = 1;
+        }
+    } else {
+        // If char is something else, do nothing
+        continue;
+    }
+  }
   //  return object
+  console.log(obj)
+  return obj;
 }
